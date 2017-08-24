@@ -299,7 +299,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/^https:\/\/publicdata-weather\.firebaseio\.com/, toolbox.networkFirst, {"cache":{"name":"weatherData-v3"}});
+toolbox.router.get(/^https:\/\/publicdata-weather\.firebaseio\.com/, toolbox.networkFirst, {"cache":{"name":"weatherData-v4"}});
 
 
 
